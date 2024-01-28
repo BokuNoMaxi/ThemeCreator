@@ -13,7 +13,7 @@ return [
       'position' => "bottom",
       'access' => 'admin',
       'workspaces' => '*',
-      'labels' => 'LLL:EXT:yet_another_bootstrap_template/Resources/Private/Language/Theme.xlf',
+      'labels' => 'LLL:EXT:theme_creator/Resources/Private/Language/Theme.xlf',
       'extensionName' => 'YetAnotherBootstrapTemplate',
       'routes' => [
         '_default' => [
