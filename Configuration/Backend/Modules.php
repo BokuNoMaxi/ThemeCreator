@@ -14,12 +14,12 @@ return [
       'access' => 'admin',
       'workspaces' => '*',
       'labels' => 'LLL:EXT:theme_creator/Resources/Private/Language/Theme.xlf',
-      'extensionName' => 'YetAnotherBootstrapTemplate',
-      'routes' => [
-        '_default' => [
-          'target' => ThemeController::class
-        ]
-      ],
+      'extensionName' => 'ThemeCreator',
+      'controllerActions' => [
+        ThemeController::class => [
+            'settings',
+        ],
+    ],
   ],
 
 ];

@@ -3,43 +3,31 @@
 namespace BokuNo\ThemeCreator\Controller;
 
 use Psr\Http\Message\ResponseInterface;
-use Psr\Http\Message\ServerRequestInterface;
-use TYPO3\CMS\Backend\Attribute\Controller;
-// the module template will be initialized in handleRequest()
-use TYPO3\CMS\Backend\Template\ModuleTemplate;
+use TYPO3\CMS\Backend\Attribute\AsController;
 use TYPO3\CMS\Backend\Template\ModuleTemplateFactory;
-use TYPO3\CMS\Core\Imaging\IconFactory;
+use TYPO3\CMS\Core\Page\PageRenderer;
+use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 
-class ThemeController
+#[AsController]
+class ThemeController extends ActionController
 {
   public function __construct(
     protected readonly ModuleTemplateFactory $moduleTemplateFactory,
-    protected readonly IconFactory $iconFactory,
+    protected readonly PageRenderer $pageRenderer
   ) {
   }
 
-  public function __invoke(ServerRequestInterface $request): ResponseInterface
+  // use Psr\Http\Message\ResponseInterface
+  public function settingsAction(): ResponseInterface
   {
-    $languageService = $GLOBALS['LANG'];
+      $this->pageRenderer->addCssFile('EXT:yet_another_bootstrap_template/Resources/Public/dist/bootstrap-5.3.2-dist/css/bootstrap.min.css');
+      $this->pageRenderer->addCssFile('EXT:yet_another_bootstrap_template/Resources/Public/CSS/utilities.css');
+      $this->pageRenderer->addJsFile('EXT:yet_another_bootstrap_template/Resources/Public/dist/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js');
 
-    $moduleTemplate = $this->moduleTemplateFactory->create($request);
-
-    $title = $languageService->sL('LLL:EXT:yet_another_bootstrap_template/Resources/Private/Language/Theme.xlf:tabs');
-    switch ($this->MOD_SETTINGS['function']) {
-      default:
-        $moduleTemplate->setTitle(
-          $title,
-          $languageService->sL('EXT:examples/Resources/Private/Language/AdminModule/locallang.xlf:settings')
-        );
-        return $this->settingsAction($moduleTemplate);
-    }
-  }
-
-
-  public function settingsAction(
-    ModuleTemplate $view,
-    string $cmd = 'cookies'
-  ): ResponseInterface {
-    return $view->renderResponse('Theme/Settings');
+      $this->view->assign('view', 'generate');
+      $moduleTemplate = $this->moduleTemplateFactory->create($this->request);
+      // Adding title, menus, buttons, etc. using $moduleTemplate ...
+      $moduleTemplate->setContent($this->view->render());
+      return $this->htmlResponse($moduleTemplate->renderContent());
   }
 }
