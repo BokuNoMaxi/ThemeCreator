@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2023-09-06T17:27:39Z"
+		product-name="yet_another_bootstrap_template">
+		<header>
+			<authorName>Markus Ketterer</authorName>
+			<authorEmail>4tmestorage@gmail.com</authorEmail>
+		</header>
+		<body>
+			<!-- ###################################################
+					 ## tx_themecreator_domain_model_theme
+					 ###################################################-->
+			<trans-unit id="tx_themecreator_domain_model_theme"
+				resname="tx_themecreator_domain_model_theme">
+				<source>Theme</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme.title"
+				resname="tx_themecreator_domain_model_theme.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme.description"
+				resname="tx_themecreator_domain_model_theme.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme.buttonstyles"
+				resname="tx_themecreator_domain_model_theme.buttonstyles">
+				<source>Button styles</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme.sectionstyles"
+				resname="tx_themecreator_domain_model_theme.buttonstyles">
+				<source>Section styles</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme.font"
+				resname="tx_themecreator_domain_model_theme.font">
+				<source>Font</source>
+			</trans-unit>
+			<!-- ###################################################
+					 ## tx_themecreator_domain_model_theme_spacing
+					 ###################################################-->
+			<trans-unit id="tx_themecreator_domain_model_theme_spacing"
+				resname="tx_themecreator_domain_model_theme_spacing">
+				<source>Spacing</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme_spacing.type"
+				resname="tx_themecreator_domain_model_theme_spacing.type">
+				<source>Type</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme_spacing.top"
+				resname="tx_themecreator_domain_model_theme_spacing.top">
+				<source>Top</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme_spacing.bottom"
+				resname="tx_themecreator_domain_model_theme_spacing.bottom">
+				<source>Bottom</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme_spacing.right"
+				resname="tx_themecreator_domain_model_theme_spacing.right">
+				<source>Right</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme_spacing.left"
+				resname="tx_themecreator_domain_model_theme_spacing.left">
+				<source>Left</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme_spacing.horizontal"
+				resname="tx_themecreator_domain_model_theme_spacing.horizontal">
+				<source>Horizontal</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme_spacing.vertical"
+				resname="tx_themecreator_domain_model_theme_spacing.vertical">
+				<source>Vertical</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme_spacing.sectionstyles"
+				resname="tx_themecreator_domain_model_theme_spacing.sectionstyles">
+				<source>Section styles</source>
+			</trans-unit>
+			<!-- ###################################################
+					 ## tx_themecreator_domain_model_theme_sectionstyles
+					 ###################################################-->
+			<trans-unit id="tx_themecreator_domain_model_theme_sectionstyles"
+				resname="tx_themecreator_domain_model_theme_sectionstyles">
+				<source>Section styles</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme_sectionstyles.theme"
+				resname="tx_themecreator_domain_model_theme_sectionstyles.theme">
+				<source>Theme</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme_sectionstyles.container"
+				resname="tx_themecreator_domain_model_theme_sectionstyles.container">
+				<source>Container</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme_sectionstyles.spacings"
+				resname="tx_themecreator_domain_model_theme_sectionstyles.spacings">
+				<source>Spacings</source>
+			</trans-unit>
+			<!-- ###################################################
+					 ## tx_themecreator_domain_model_theme_fonts
+					 ###################################################-->
+			<trans-unit id="tx_themecreator_domain_model_theme_fonts"
+				resname="tx_themecreator_domain_model_theme_fonts">
+				<source>Fonts</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme_font.sans_serifs"
+				resname="tx_themecreator_domain_model_theme_fonts.sans_serif">
+				<source>Sans Serif</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme_fonts.monospace"
+				resname="tx_themecreator_domain_model_theme_fonts.monospace">
+				<source>Monospace</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme_fonts.size"
+				resname="tx_themecreator_domain_model_theme_fonts.size">
+				<source>Size</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme_fonts.weight"
+				resname="tx_themecreator_domain_model_theme_fonts.weight">
+				<source>Weight</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme_fonts.color"
+				resname="tx_themecreator_domain_model_theme_fonts.color">
+				<source>Color</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme_fonts.background_color"
+				resname="tx_themecreator_domain_model_theme_fonts.background_color">
+				<source>Background color</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme_fonts.link_color"
+				resname="tx_themecreator_domain_model_theme_fonts.link_color">
+				<source>Link color</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme_fonts.hover_color"
+				resname="tx_themecreator_domain_model_theme_fonts.hover_color">
+				<source>Hover color</source>
+			</trans-unit>
+			<!-- ###################################################
+					 ## tx_themecreator_domain_model_theme_buttonstyles
+					 ###################################################-->
+			<trans-unit id="tx_themecreator_domain_model_theme_buttonstyles"
+				resname="tx_themecreator_domain_model_theme_buttonstyles">
+				<source>Button styles</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme_buttonstyles.theme"
+				resname="tx_themecreator_domain_model_theme_buttonstyles.theme">
+				<source>Theme</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme_buttonstyles.class_name"
+				resname="tx_themecreator_domain_model_theme_buttonstyles.class_name">
+				<source>Class name</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme_buttonstyles.background_color"
+				resname="tx_themecreator_domain_model_theme_buttonstyles.background_color">
+				<source>Background color</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme_buttonstyles.color"
+				resname="tx_themecreator_domain_model_theme_buttonstyles.color">
+				<source>Color</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme_buttonstyles.hover_background_color"
+				resname="tx_themecreator_domain_model_theme_buttonstyles.hover_background_color">
+				<source>Hover background color</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme_buttonstyles.hover_color"
+				resname="tx_themecreator_domain_model_theme_buttonstyles.hover_color">
+				<source>Hover color</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme_buttonstyles.border_color"
+				resname="tx_themecreator_domain_model_theme_buttonstyles.border_color">
+				<source>Border color</source>
+			</trans-unit>
+			<trans-unit id="tx_themecreator_domain_model_theme_buttonstyles.hover_border_color"
+				resname="tx_themecreator_domain_model_theme_buttonstyles.hover_border_color">
+				<source>Hover border color</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
