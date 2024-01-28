@@ -1,0 +1,11 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  BokuNo\ThemeCreator\:
+    resource: '../Classes/*'
+
+  BokuNo\ThemeCreator\Controller\ThemeController:
+    tags: ['backend.controller']
