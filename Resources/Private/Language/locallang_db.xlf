@@ -170,6 +170,34 @@
 				resname="tx_themecreator_domain_model_theme_buttonstyles.hover_border_color">
 				<source>Hover border color</source>
 			</trans-unit>
+
+			<!-- ###################################################
+					 ################# Backend Module ##################
+					 ###################################################-->
+			<trans-unit id="theme.new" resname="theme.new">
+				<source>Add Theme</source>
+			</trans-unit>
+			<trans-unit id="theme.edit" resname="theme.edit">
+				<source>Edit Theme</source>
+			</trans-unit>
+			<trans-unit id="theme.delete" resname="theme.delete">
+				<source>Delete Theme</source>
+			</trans-unit>
+			<trans-unit id="theme.back" resname="theme.back">
+				<source>Back</source>
+			</trans-unit>
+			<trans-unit id="theme.list" resname="theme.list">
+				<source>Themes</source>
+			</trans-unit>
+			<trans-unit id="theme.header.list" resname="theme.header.list">
+				<source>Themes</source>
+			</trans-unit>
+			<trans-unit id="theme.header.new" resname="theme.header.neww">
+				<source>New Theme</source>
+			</trans-unit>
+			<trans-unit id="theme.header.edit" resname="theme.header.edit">
+				<source>Edit Theme</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

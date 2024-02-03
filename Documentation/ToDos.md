@@ -3,4 +3,7 @@ BackendModule:
   theme table: fields for default values
   create model
   write css from model
-  load css via typoscript
+  load css via typoscript?
+  import/export?
+  custom classes?
+

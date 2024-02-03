@@ -8,7 +8,7 @@
 use BokuNo\ThemeCreator\Controller\ThemeController;
 
 return [
-  'yabt' => [
+  'themeCreator' => [
       'parent' => 'site',
       'position' => "bottom",
       'access' => 'admin',
@@ -17,7 +17,7 @@ return [
       'extensionName' => 'ThemeCreator',
       'controllerActions' => [
         ThemeController::class => [
-            'settings',
+            'list', 'new','create', 'edit', 'update','delete'
         ],
     ],
   ],

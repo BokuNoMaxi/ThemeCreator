@@ -1,0 +1,11 @@
+<html data-namespace-typo3-fluid="true" xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers">
+  <f:layout name="Default" />
+  <f:section name="Main">
+    <section class="theme--section">
+      <h1><f:translate key="LLL:EXT:theme_creator/Resources/Private/Language/locallang_db.xlf:theme.header.new" /></h1>
+      <f:form action="create" addQueryString="1">
+        <f:render partial="Form" arguments="{_all}" />
+      </f:form>
+    </section>
+  </f:section>
+</html>
